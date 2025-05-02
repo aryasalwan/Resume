@@ -1,5 +1,5 @@
 cv:
-  name: John Doe
+  name: John ssDoe
   location: Your Location
   email: youremail@yourdomain.com
   phone: tel:+90-541-999-99-99
@@ -11,7 +11,7 @@ cv:
       username: yourusername
   sections:
     welcome_to_RenderCV!:
-      - '[RenderCV](https://rendercv.com) is a LaTeX-based CV/resume
+      - '[RenderCV](https://rendercv.com) is a LaTeXs-based CV/resume
         version-control and maintenance app. It allows you to
         create a high-quality CV or resume as a PDF file from
         a YAML file, with **Markdown syntax support** and **complete
@@ -112,30 +112,30 @@ design:
   disable_external_link_icons: false
   disable_page_numbering: false
   page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
-  disable_last_updated_date: false
-  last_updated_date_style: Last updated in TODAY
+  disable_last_updated_date: true
   header_font_size: 24 pt
   text_alignment: justified
   seperator_between_connections: ''
   use_icons_for_connections: true
   margins:
     page:
-      top: 2 cm
-      bottom: 2 cm
-      left: 2 cm
-      right: 2 cm
+      top: 0.7 cm
+      bottom: 0.7 cm
+      left: 1.2 cm
+      right: 1.2 cm
     section_title:
-      top: 0.3 cm
-      bottom: 0.2 cm
+      top: 0.2 cm
+      bottom: 0.1 cm
     entry_area:
       left_and_right: 0.2 cm
-      vertical_between: 0.2 cm
+      vertical_between: 0.1 cm
       date_and_location_width: 4.5 cm
+      # education_degree_width: 1 cm
     highlights_area:
       top: 0.10 cm
       left: 0.4 cm
-      vertical_between_bullet_points: 0.10 cm
+      vertical_between_bullet_points: 0.05 cm
     header:
-      vertical_between_name_and_connections: 0.3 cm
-      bottom: 0.3 cm
+      vertical_between_name_and_connections: 0.1 cm
+      bottom: 0.2 cm
       horizontal_between_connections: 0.5 cm

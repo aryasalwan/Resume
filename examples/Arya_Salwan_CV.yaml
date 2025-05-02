@@ -1,0 +1,142 @@
+cv:
+  name: Arya Salwan 
+  location: St John's NL
+  email: aryas@mun.ca
+  phone: tel:+1-709-327-8273
+  website: https://aryasalwan.com/
+  social_networks:
+    - network: LinkedIn
+      username: aryasalwan
+    - network: GitHub
+      username: aryasalwan
+  sections:
+    education:
+      - institution: Memorial University of Newfoundland (MUN)
+        area: Computer Engineering (Co-op)
+        degree: Bachelor of Engineering
+        start_date: 2021-09
+        end_date: 2026-04
+        highlights:
+          - "IUGS Entrance Scholarship 2021-22, Verafin Inc. Computer Engineering Scholarship 2022-23."
+          - "Equity Analyst, The Fund, Memorial University of Newfoundland."
+    experience:
+      - company: Birch Scientific
+        position: Software Developer and Computer Vision Researcher
+        location:  "St John's, NL"
+        start_date: 2024-04
+        end_date: 2024-08
+        highlights:
+          - Collaborated in a team to develop a SaaS-based data visualization
+            platform using React.js & PostgreSQL, enabling users to upload data, generate
+            dynamic graphs, and 3D visualizations powered by
+            Unreal Engine plugin.
+          - Developed equations and algorithms for 3D mesh scale-space
+            filtering using the Laplacian of Gaussian technique, utilizing
+            VTK, Open3D, Trimesh, Gdist, and pygeodesic libraries for
+            multiscale mesh visualization.
+          - Implemented computationally intensive Scale Space Filtering (SSF)
+            algorithms on NVIDIA GPUSs using CUDA, utilizing parallel programming
+            techniques to significantly enhance processing speed and accuracy.
+      - company: Blackberry
+        position: Full Stack Software Developer
+        location: Ottawa
+        start_date: 2023-09
+        end_date: 2023-12
+        highlights:
+          - Developed an internal test database tool “BlackFish” to store
+            automated test results from various teams using .NET winForms to compare historical & 
+            current test results.
+          - Extended Blackfish capabilities with REST API functionality to query,
+            view, monitor, upload and compare test results seamlessly.
+          - Crafted unit and integration tests for Network Link Aggregation
+            feature of QNX SDP 8.0 and authored shell scripts to automate processes on Jenkins.
+      - company: Instrumar Limited
+        position: Embedded Systems Software Developer
+        location: St John's NL
+        start_date: 2023-01
+        end_date: 2023-05
+        highlights:
+          - Developed ST and ladder logic-based solutions for PLCs in
+            accordance with client specifications and developed C++ code for 
+            Instrumar sensors to accommodate new data streams.
+          - Developed applications in GoLang & Java for upgraded Instrumar
+            Fibre System. Assisted in the setup and deployment of Apache cloud
+            stack for a kubernetes cluster based IFS system.
+          - Wrote new drivers in .net/C# for linking the new ADS based
+            communication protocol from Beckhoff with the Instrumar fibre
+            system(IFS) and modified existing drivers for OPC use.
+      - company: Information and Technology Services - MUN
+        position: Network Software Developer
+        location: St John's NL
+        start_date: 2022-05
+        end_date: 2023-08
+        highlights:
+          - Independently developed a UDP-based request tracking
+            system with chat room functionality using low-level
+            network programming in python with an interactive GUI.
+          - Headed a team of talented computing support staff,
+            providing software and hardware solutions to clients.
+          - Designed & assembled circuits. Programmed microcontrollers 
+            like Rasberry Pi Pico for internal projects.
+    projects:
+      - name: '[Open Source PDF Editor - BriskPDF](https://github.com/aryasalwan/ece5010)'
+        highlights:
+          - A cross-platform PDF editer with merge, split, insert, secure & invert pdf functionality developed in .NET MAUI.
+      - name: '[MUN Class Schedule Exporter](https://chromewebstore.google.com/detail/class-schedule-exporter/ibokfibnpcllpcmoolbeoffkngmfghgm)'
+        highlights:
+          - Chrome based extension developed using webpack and ical.js, helps students to export 
+            their class schedule directly to apple or google calendar. Has 10+ weekly users.
+      - name: '[S&P500 Overbought & Oversold Stocks Analyser](https://github.com/aryasalwan/SnP500_RSI_calculator)'
+        highlights:
+          - Developed using yfinance, pandas and TA libraries
+            in python. Gives buy/sell signal to user based on RSI.
+    technologies:
+      - label: "Languages"
+        details: "Java, JavaScript, php, HTML, CSS, Python, C#, GoLang, SQL, Assembly, C/C++ , VHDL & Assembly."
+      - label: "Libraries"
+        details: "PyQT, Pandas, Numpy, SciPy, Tensorflow, PyTorch, SciKit, VTK, Gdist, Jupyter, yfinance, ta-lib."
+      - label: Frameworks
+        details:  "React.js, PostgreSQL, MySQL, Kafka, MongoDB, Node.js, Angular, .NET MAUI, Django & Flask."
+      - label: Developer Tools
+        details: "Linux, Git, SVN, Shell & Bash Script, Kubernetes, Docker, Jenkins, Vim, Azure, AWS, GCP."
+      - label: Soft Skills
+        details: "Excellent communication skills, skilled debater and public speaker. Strong collaboration and 
+       leadership skills with a proven ability to collaborate effectively within a team."
+
+design:
+  theme: sb2nov
+  font: Latin Modern Serif
+  font_size: 10pt
+  page_size: letterpaper
+  color: '#004f90'
+  disable_external_link_icons: false
+  disable_page_numbering: false
+  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  disable_last_updated_date: true
+  last_updated_date_style: Last updated in TODAY
+  header_font_size: 24 pt
+  text_alignment: justified
+  seperator_between_connections: ''
+  use_icons_for_connections: true
+  margins:
+    page:
+      top: 0.7 cm
+      bottom: 0.7 cm
+      left: 1.2 cm
+      right: 1.2 cm
+    section_title:
+      top: 0.06 cm
+      bottom: 0.1 cm
+    entry_area:
+      left_and_right: 0.2 cm
+      vertical_between: 0.1 cm
+      date_and_location_width: 4.5 cm
+      # education_degree_width: 1 cm
+    highlights_area:
+      top: 0.10 cm
+      left: 0.4 cm
+      vertical_between_bullet_points: 0.05 cm
+    header:
+      vertical_between_name_and_connections: 0.1 cm
+      bottom: 0.2 cm
+      horizontal_between_connections: 0.5 cm
